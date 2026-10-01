@@ -1,16 +1,74 @@
-# React + Vite
+# User Profile Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive User Profile Cards page built using **React** and **Tailwind CSS** as part of a frontend development task.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Responsive user profile card grid
+* Profile picture with hover effect
+* Active/Online status indicator with animation
+* User name, role, and short bio
+* Follow / Following toggle functionality
+* Smooth card hover animation
+* Responsive design for mobile, tablet, and desktop
+* Clean and modern UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React
+* Tailwind CSS
+* JavaScript
+* Vite
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+├── components/
+├── assets/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+### 2. Navigate to the project
+
+```bash
+cd user-profile-cards
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## Available Interaction
+
+Clicking the **Follow** button changes it to **Following**.
+Clicking **Following** changes it back to **Follow**.
+The profile cards, profile images, online indicator, and buttons also include hover/animation effects.
+
+
+
+## Live Demo
+
+[https://user-profile-cards-chi.vercel.app/]
+
+
