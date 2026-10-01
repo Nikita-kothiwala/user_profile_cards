@@ -5,13 +5,7 @@ function ProfileGrid({ followingUsers, onFollowToggle }) {
   return (
     <section
       aria-label="Community members"
-      className="
-        grid
-        grid-cols-1
-        gap-5
-        sm:grid-cols-2
-        sm:gap-6
-        lg:grid-cols-3
+      className=" grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-6 lg:grid-cols-3
       "
     >
       {users.map((user) => (
