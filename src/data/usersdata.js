@@ -1,7 +1,7 @@
 export const users = [
   {
     id: 1,
-    name: "Aarohi Verma",
+    name: "Rahul Mehra",
     role: "Product Designer",
     bio: "Designing simple and meaningful digital experiences.",
     image: "/user1.jpg",
@@ -9,7 +9,7 @@ export const users = [
   },
   {
     id: 2,
-    name: "Rahul Mehra",
+    name: "Aarohi Verma",
     role: "Frontend Developer",
     bio: "Building responsive interfaces with React and modern CSS.",
     image: "/user2.jpg",
@@ -17,7 +17,7 @@ export const users = [
   },
   {
     id: 3,
-    name: "Ananya Patel",
+    name: "Kabir Malhotra",
     role: "UX Researcher",
     bio: "Turning user insights into thoughtful product experiences.",
     image: "/user3.jpg",
@@ -25,7 +25,7 @@ export const users = [
   },
   {
     id: 4,
-    name: "Kabir Malhotra",
+    name: "Ananya Patel",
     role: "Full Stack Developer",
     bio: "Creating scalable products from frontend to backend.",
     image: "/user4.jpg",
@@ -33,7 +33,7 @@ export const users = [
   },
   {
     id: 5,
-    name: "Meera Kapadai",
+    name: "Arjun Verma",
     role: "Content Strategist",
     bio: "Crafting content that connects brands with people.",
     image: "/user5.jpg",
@@ -41,7 +41,7 @@ export const users = [
   },
   {
     id: 6,
-    name: "Arjun Verma",
+    name: "Meera Kapoor",
     role: "Product Manager",
     bio: "Connecting teams, ideas, and users to build better products.",
     image: "/user6.jpg",
